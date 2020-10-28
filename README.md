@@ -2,10 +2,10 @@
 
 Simplified version of ruGPT3-powered text generator based on https://github.com/sberbank-ai/ru-gpts project.
 
-It's aimed to use just like this:
+It's aimed to be used like this:
 
 ```
-docker run -it dimedrol/rugpt3 python /rugpt/generate_transformers.py --model_type=gpt2 --model_name_or_path=sberbank-ai/rugpt3large_based_on_gpt2 --k=5 --p=0.95 --length=100 --prompt="Открытое ПО творит чудеса"
+docker run -it dimedrol/rugpt3:1a83ef8 python /rugpt/generate_transformers.py --model_type=gpt2 --model_name_or_path=sberbank-ai/rugpt3large_based_on_gpt2 --k=5 --p=0.95 --length=100 --prompt="Открытое ПО творит чудеса"
 
 Открытое ПО творит чудеса, но не для всех.
 
