@@ -11,4 +11,5 @@ docker run -it dimedrol/rugpt3 python /rugpt/generate_transformers.py --model_ty
 
 В чем смысл? В том, что ты можешь сделать, если ты хочешь. Если ты можешь это сделать, ты можешь делать это, если у тебя есть силы...
 ```
+
 "Simplified" in this context means - removed all the unnecessary diagnostic and logging messages. Just your command and resulting output.
